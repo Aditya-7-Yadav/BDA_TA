@@ -76,7 +76,7 @@ docker logs jupyter 2>&1 | grep token
 ### Step 3 — Generate data & initialise HDFS
 
 ```bash
-# Initialise HDFS directory structure and upload CSVs
+# Initialise Hadoop Distributed File System (HDFS) directory structure and upload CSVs
 docker exec -it namenode bash /scripts/init_hdfs.sh
 ```
 
